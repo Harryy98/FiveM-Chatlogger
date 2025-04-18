@@ -1,6 +1,6 @@
-local DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1274439838250045460/KaMnmIMZZkpJa-b1ovwe0sHWXRWLnh01hUl6vpqqhVBkgNiV4XkG9bFhN0hnUq60IKdR"
-local DISCORD_NAME = "SFS"
-local DISCORD_IMAGE = "https://cdn.discordapp.com/attachments/1120606708532793404/1274441562591330417/logo.png?ex=66c8db32&is=66c789b2&hm=d86806956eb908be0fba7d8205ce732b490689d1126551861ec2ea8f600ad515&"
+local DISCORD_WEBHOOK = "Webhook_URL"
+local DISCORD_NAME = "SYSTEM"
+local DISCORD_IMAGE = "Image_URL"
 
 local function sendDiscordWebhook(payload)
     PerformHttpRequest(DISCORD_WEBHOOK, function(err, text, headers)
