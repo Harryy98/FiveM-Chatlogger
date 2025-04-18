@@ -28,7 +28,7 @@ A simple and efficient chat logger for FiveM servers that sends in-game chat mes
 3. Add the resource to your `server.cfg`:
 
 ```
-ensure chat-logger
+ensure FiveM-Chatlogger
 ```
 
 ---
